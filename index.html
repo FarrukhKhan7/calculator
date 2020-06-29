@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+ 
+   <div class="main">
+         <div>
+
+             <input id="result" type="text" class="iput">
+         </div>
+         <div>
+             <button class="btnc" onclick="clearC()">C</button>
+             <button class="btnd" onclick="numberview('/')">/</button>
+         </div>
+         <div>
+            <button class="btn" onclick="numberview('7')">7</button>
+            <button class="btn" onclick="numberview('8')">8</button>
+            <button class="btn" onclick="numberview('9')">9</button>
+            <button class="btn" onclick="numberview('*')">x</button>
+        </div>
+        <div>
+            <button class="btn" onclick="numberview('4')">4</button>
+            <button class="btn" onclick="numberview('5')">5</button>
+            <button class="btn" onclick="numberview('6')">6</button>
+            <button class="btn" onclick="numberview('-')">-</button>
+        </div>
+        <div>
+            <button class="btn" onclick="numberview('1')">1</button>
+            <button class="btn" onclick="numberview('2')">2</button>
+            <button class="btn" onclick="numberview('3')">3</button>
+            <button class="btn" onclick="numberview('+')">+</button>
+        </div>
+        <div>
+            <button class="btn" onclick="numberview('.')">.</button>
+            <button class="btn0" onclick="numberview('0')">0</button>
+            <button class="btne" onclick="getresult()">=</button>
+          
+        </div>
+    </div> 
+
+
+
+    
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

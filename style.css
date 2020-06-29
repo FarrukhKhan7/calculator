@@ -1,0 +1,135 @@
+body{
+    overflow: hidden;
+    background-image: url(https://media.istockphoto.com/vectors/abstract-vector-white-and-gray-subtle-lattice-pattern-background-vector-id1138069810?b=1&k=6&m=1138069810&s=612x612&h=YJZYKYypH3HwHiN_dhPNVhH_zjAU0k-iEMl1dcWjJfg=);
+}
+.main{
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 250px;
+    border-radius: 5px;
+    padding: 13px 6px 10px 10px;
+    background-color:#1a237e;
+
+}
+.iput{
+    width: 94%;
+    padding: 10px 5px;
+    font-size: x-large;
+    border-radius: 5px;
+    background-color:#000051;
+    color: white;
+    
+}
+.btnc{
+    width: 185px;
+    padding: ;
+    margin-top: 10px;
+    height: 40px;
+    font-size: x-large;
+    border-radius: 15px;
+    background-color:#000051;
+    color: white; 
+}
+.btnd{
+    width: 59px;
+    padding:;
+    margin-top: 10px;
+    height: 40px;
+    font-size: x-large;
+    border-radius: 15px;
+    background-color:#000051;
+    color: white; 
+}
+.btn{
+    width: 59px;
+    padding: ;
+    margin-top: 10px;
+    height: 40px;
+    font-size: x-large;
+    border-radius: 15px;
+     background-color:#000051;
+    color: white; 
+}
+.btn0{
+    width: 122px;
+    padding: ;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 40px;
+    font-size: x-large;
+    border-radius: 15px;
+    background-color:#000051;
+    color: white; 
+}
+.btne{
+    width: 59px;
+    padding: ;
+    margin-top: 10px;
+    height: 40px;
+    font-size: x-large;
+    border-radius: 15px;
+    background-color:#ef6c00;
+    color: white; 
+}
+
+@media screen and (max-width: 760px) and (min-width: 350px)  {
+   
+    
+   .main{
+       margin: initial!important;
+       width: 200px!important;
+   }
+ 
+.btnc{
+    width: 149px!important;
+     
+}
+.btnd{
+    width: 47px!important;
+     
+}
+.btn{
+    width: 47px!important;
+    
+}
+.btn0{
+    width: 98px!important;}
+   
+.btne{
+    width: 47px!important;
+
+}
+
+
+  }
+  @media screen and (max-width: 340px) {
+   
+    
+    .main{
+        margin: initial!important;
+        width: 190px!important;
+    }
+  
+ .btnc{
+     width: 140px!important;
+      
+ }
+ .btnd{
+     width: 44px!important;
+      
+ }
+ .btn{
+     width: 44px!important;
+     
+ }
+ .btn0{
+     width: 92px!important;}
+    
+ .btne{
+     width: 44px!important;
+ 
+ }
+ 
+ 
+   }
+  
